@@ -1,0 +1,120 @@
+.logo {
+    font-family:"Raleway", sans-serif;
+    text-transform:uppercase;
+    font-weight:700;
+    font-size:18px;
+    line-height:1.17;
+    letter-spacing:0.03em;
+    color:#2e2f42;
+}
+.logo-text {
+    color:#4d5ae5;
+}
+.menu {
+    font-size:16px;
+    font-weight:500;
+    line-height:1.5;
+    letter-spacing:0.02em;
+    color: #2e2f42;
+}
+.menu:hover, .menu:focus {
+    color:#404bbf;
+}
+.connect {
+    font-style:normal;
+    font-size:16px;
+    line-height:1.5;
+    letter-spacing:0.02em;
+}
+.contacts {
+    color:#434455;
+}
+.contacts:hover, 
+.contacts:focus {
+    color:#404bbf;
+}
+.hero {
+    background-color:#2e2f42;
+}
+.hero-title {
+    font-size:56px;
+    line-height:1.07;
+    letter-spacing:0.02em;
+    text-align:center;
+    color:#ffffff;
+}
+.button {
+    font-size:16px;
+    font-weight:500;
+    line-height:1.5;
+    letter-spacing:0.04em;
+    cursor:pointer;
+    color:#ffffff;
+    background-color:#4d5ae5;
+}
+.button:hover, .button:focus {
+    background-color:#404bbf;
+}
+body {
+    font-family:"Roboto", sans-serif;
+    line-height:1.5;
+    letter-spacing:0.02em;
+    color:#434455;
+    background-color:#ffffff;
+}
+a {
+    text-decoration:none;
+}
+.title-2 {
+    font-size:36px;
+    line-height:1.11;
+    letter-spacing:0.02em;
+    text-align:center;
+    color:#2e2f42;
+}
+.title-3 {
+    font-size:20px;
+    font-weight:500;
+    line-height:1.2;
+    letter-spacing:0.02em;
+    text-align:left;
+    color:#2e2f42;
+}
+p {
+    font-size:16px;
+    line-height:1.5;
+    letter-spacing:0.02em;
+    text-align: left;
+    color:#434455;
+}
+ul { 
+    list-style-type:none;
+}
+.team {
+    background-color:#f4f4fd;
+}
+.team-image {
+    background-color:#ffffff;
+
+}
+.team-image img {
+    display:block;
+    margin:0;
+}
+.team-image h3,
+.team-image p {
+    text-align:center;
+}
+.logo-text-1 {
+    color:#f4f4fd;
+}
+footer {
+    font-size:16px;
+    line-height:1.5;
+    letter-spacing:0.02em;
+    color:#f4f4fd;
+    background-color: #2e2f42;
+}
+.text {
+    color: #f4f4fd;
+}
