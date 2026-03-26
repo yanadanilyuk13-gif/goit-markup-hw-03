@@ -114,17 +114,16 @@ margin-left: 472px;
 }
 .button-container {
 display: block;
-align-content: center;
+align-content:center;
 }
 .button {
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
+    display:block;
     gap: 10px;
     border-radius: 4px;
     padding: 16px 32px;
-    margin-top: 45px;
+    margin-top: 42px;
+    margin-right: auto;
+    margin-left: auto;
     margin-bottom: 188px;
     font-size: 16px;
     font-weight:500;
