@@ -223,9 +223,8 @@ img {
     gap: 48px 24px;
 }
 .portfolio-list {
-    flex: 1 1 calc((100% - 72px) / 3);
+    flex: 1 1 calc((100% - 48px) / 3);
 }
-
 .portfolio-text {
     display: flex;
     flex-direction: column;
