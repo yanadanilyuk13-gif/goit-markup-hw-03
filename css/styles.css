@@ -33,7 +33,7 @@ background-color: #ffffff;
 display: flex;
 align-items: center;
 }
-.header .logo {
+.header-container .logo {
 padding: 24px 0;
 }
 .logo {
@@ -57,7 +57,7 @@ padding: 24px 0;
     display: flex;
     align-items: center;
     gap: 40px;
-    padding-right: 332px;
+    margin-left: 76px;
 }
 .menu-set {
     display: block;
@@ -146,6 +146,7 @@ align-content: center;
 .features-list {
     display: flex;
     gap: 24px;
+    flex: 1 1 calc((100% - 72px) / 4);
 }
 .visually-hidden {
   position: absolute;
@@ -186,6 +187,8 @@ p {
 ul, ol { 
     list-style-type:none;
 }
+img {display: block;
+}
 .team {
     padding: 120px 0;
     background-color:#f4f4fd;
@@ -193,16 +196,13 @@ ul, ol {
 .team-item {
 display: flex;
 gap: 24px;
-align-content: center;
-flex-wrap: wrap;
-justify-content: center;
 }
 
 .team-list {
     background-color: #ffffff;
     border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    width: calc((100% - 24*3) / 4);
+    width: calc((100% - 72px) / 4);
 }
 .img-text {
     display: flex;
@@ -218,12 +218,14 @@ padding: 120px 0;
 background-color: #ffffff;
 }
 .portfolio-item {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 48px 24px;
+display: flex;
+gap: 48px 24px;
+flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+    flex: 1 1 calc((100% - 72px) / 4);
 }
+
 .portfolio-text {
     display: flex;
     flex-direction: column;
