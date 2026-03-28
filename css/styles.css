@@ -3,10 +3,6 @@
   padding: 0 15px;  
   margin: 0 auto;  
 }
-section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
 h1,
 h2,
 h3,
@@ -25,16 +21,16 @@ a {
     border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
-display: flex;
-align-items: center;
-background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
 }
 .header-nav {
-display: flex;
-align-items: center;
+    display: flex;
+    align-items: center;
 }
 .logo-header {
-padding: 24px 0;
+    padding: 24px 0;
 }
 .logo {
     font-family:"Raleway", sans-serif;
@@ -80,12 +76,12 @@ padding: 24px 0;
     gap: 40px;
 }
 .contacts-link {
-display: block;
-padding: 24px 0;
-font-size:16px;
-line-height:1.5;
-letter-spacing:0.02em;
-color:#434455;
+    display: block;
+    padding: 24px 0;
+    font-size:16px;
+    line-height:1.5;
+    letter-spacing:0.02em;
+    color:#434455;
 }
 .contacts-link:hover, 
 .contacts-link:focus {
@@ -111,20 +107,20 @@ color:#434455;
     letter-spacing:0.02em;
 }
 .button {
-display: block;
-margin-top: 48px;
-padding: 16px 32px;
-border-radius: 4px;
-border: none;
+    display: block;
+    margin-top: 48px;
+    padding: 16px 32px;
+    border-radius: 4px;
+    border: none;
 
-color:#ffffff;
-background-color:#4d5ae5;
+    color:#ffffff;
+    background-color:#4d5ae5;
 
-font-size: 16px;
-font-weight:500;
-line-height:1.5;
-letter-spacing:0.04em;
-cursor:pointer;
+    font-size: 16px;
+    font-weight:500;
+    line-height:1.5;
+    letter-spacing:0.04em;
+    cursor:pointer;
 }
 
 .button:hover, .button:focus {
@@ -137,10 +133,11 @@ body {
     color:#434455;
     background-color:#ffffff;
 }
-
+.features {
+    padding: 120px 0;
+}
 .features-block {
-display: flex;
-
+    display: flex;
 }
 .features-item {
     display: flex;
@@ -189,15 +186,16 @@ p {
 ul, ol { 
     list-style-type:none;
 }
-img {display: block;
+img {
+    display: block;
 }
 .team {
     padding: 120px 0;
     background-color:#f4f4fd;
 }
 .team-item {
-display: flex;
-gap: 24px;
+    display: flex;
+    gap: 24px;
 }
 
 .team-list {
@@ -216,16 +214,16 @@ gap: 24px;
 }
 
 .portfolio {
-padding: 120px 0;
-background-color: #ffffff;
+    padding: 120px 0;
+    background-color: #ffffff;
 }
 .portfolio-item {
-display: flex;
-flex-wrap: wrap;
-gap: 48px 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
 }
 .portfolio-list {
-flex: 1 1 calc((100% - 72px) / 3);
+    flex: 1 1 calc((100% - 72px) / 3);
 }
 
 .portfolio-text {
